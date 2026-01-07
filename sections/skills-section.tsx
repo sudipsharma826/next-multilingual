@@ -2,7 +2,8 @@ import Section from "@/components/section";
 import personal from "@/lib/data/personal.json";
 import { icons } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
-
+import { useTranslations } from "next-intl";
+export default function SkillsSection() {
 const iconMap: Record<string, keyof typeof icons> = {
     "React": "React",
     "Next.js": "Box",
@@ -39,10 +40,10 @@ const iconMap: Record<string, keyof typeof icons> = {
     "SQL": "Database",
 };
 
-export default function SkillsSection() {
     const skills = personal.skills;
+    const t = useTranslations();
     return (
-        <Section title="Skills">
+        <Section title={t('skills.title')}>
             <div className="flex flex-wrap gap-4">
                 {skills.map((skill) => {
                     const Icon = icons[iconMap[skill.name] || "Circle"];

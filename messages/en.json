@@ -1,0 +1,34 @@
+{
+  "home":{
+    "resume": "Resume",
+    "connect": "Connect"
+  },
+  "about": {
+    "title": "About Me"
+  },
+  "projects": {
+    "title": "Projects"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "certificates": {
+    "title": "Certificates"
+  },
+  "references": {
+    "title": "References"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "footer": {
+    "name": "Sudip Sharma",
+    "year": "2026"
+  }
+}

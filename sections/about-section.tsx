@@ -1,11 +1,14 @@
+
 import Section from "@/components/section";
 import Image from "next/image";
 import personal from "@/lib/data/personal.json";
+import { useTranslations } from 'next-intl';
 
 export default function AboutSection() {
     const data = personal.personalData;
+    const t = useTranslations();
     return (
-        <Section title="About">
+        <Section title={t('about.title')}>
             <div className="flex flex-col md:flex-row gap-8 items-start">
                 
 

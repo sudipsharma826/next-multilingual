@@ -1,12 +1,15 @@
+
 import Section from "@/components/section";
 import Image from "next/image";
 import personal from "@/lib/data/personal.json";
+import { useTranslations } from 'next-intl';
 
 export default function CertificatesSection() {
     const certificates = personal.certificates;
     if (!certificates || certificates.length === 0) return null;
+    const t = useTranslations();
     return (
-        <Section title="Certificates & Awards">
+        <Section title={t('certificates.title')}>
             <div className="space-y-6">
                 {certificates.map((cert, idx) => (
                     <div key={idx} className="w-full border border-gray-200 p-6 rounded-xl bg-white flex flex-col md:flex-row gap-4 items-start">

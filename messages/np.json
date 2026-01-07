@@ -1,0 +1,34 @@
+{
+  "home": {
+    "resume": "रिजुमे",
+    "connect": "जोडिनुहोस्"
+  },
+  "about": {
+    "title": "मेरो बारेमा"
+  },
+  "projects": {
+    "title": "परियोजनाहरू"
+  },
+  "experience": {
+    "title": "अनुभव"
+  },
+  "education": {
+    "title": "शिक्षा"
+  },
+  "skills": {
+    "title": "सीपहरू"
+  },
+  "certificates": {
+    "title": "प्रमाणपत्रहरू"
+  },
+  "references": {
+    "title": "सिफारिसहरू"
+  },
+  "contact": {
+    "title": "सम्पर्क"
+  },
+  "footer": {
+    "name": "सुदिप शर्मा",
+    "year": "२०८२"
+  }
+}

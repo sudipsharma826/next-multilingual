@@ -1,11 +1,14 @@
+
 import Section from "@/components/section";
 import personal from "@/lib/data/personal.json";
 import { Github, Linkedin, Globe, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { useTranslations } from 'next-intl';
 
 export default function ContactSection() {
     const data = personal.personalData;
+    const t = useTranslations();
     return (
-        <Section title="Contact">
+        <Section title={t('contact.title')}>
             <div className="flex flex-col gap-4">
                 {data.email && (
                     <div className="flex items-center gap-2">

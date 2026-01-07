@@ -1,6 +1,8 @@
+
 import Section from "@/components/section";
 import Image from "next/image";
 import personal from "@/lib/data/personal.json";
+import { useTranslations } from 'next-intl';
 
 type Experience = {
     company: string;
@@ -22,8 +24,9 @@ export default function ExperienceSection() {
             ? [exp.achievements]
             : [],
     }));
+    const t = useTranslations();
     return (
-        <Section title="Experience">
+        <Section title={t('experience.title')}>
             <div className="space-y-6">
                 {experiences.map((exp, idx) => (
                     <div key={idx} className="w-full border border-gray-200 p-6 rounded-xl bg-white">

@@ -185,3 +185,16 @@ export default async function RootLayout({ children, params }) {
 ```
 
 Now your Next.js app is ready for multilingual support using next-intl!
+
+---
+
+## Next-intl Implementation Summary
+
+- Implemented a LocaleSwitcher component that toggles the site language between English (`en`) and Nepali (`np`).
+- Created `app/[locale]/page.tsx` to get the locale from route params and render the correct language content.
+- In `app/[locale]/layout.tsx`, set `setRequestLocale(locale)` so the locale is applied to all pages inside the `[locale]` route automatically.
+- Added `generateStaticParams` for static site generation, telling Next.js which dynamic routes (`en`, `np`) to pre-render at build time.
+- Created a `messages` folder in the project root with two files: `en.json` (all English text) and `np.json` (all Nepali text).
+- All application UI data (labels, buttons, section titles, footer text, etc.) is integrated with next-intl using the `useTranslations` hook. All sections and the footer now use translation keys for multilingual support.
+
+---

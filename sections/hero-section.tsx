@@ -1,12 +1,28 @@
+
 import { ArrowRightIcon, Github, Linkedin, Globe, Facebook, Mail } from "lucide-react";
 import personal from "@/lib/data/personal.json";
 import Image from "next/image";
-
+import LocaleSwitcher from '@/components/LocaleSwitcher';
+import { useTranslations } from 'next-intl';
 
 export default function HeroSection() {
     const data = personal.personalData;
+    const t = useTranslations();
     return (
-        <main className="flex flex-col items-center pt-32 max-md:px-4">
+        <main className="flex flex-col items-center pt-32 max-md:px-4 relative">
+            {/* Overlayed language switcher */}
+            <div className="absolute right-8 top-4 flex flex-col items-end z-10">
+                <span className="text-base font-semibold text-gray-700 mb-1">Multilingual Profile</span>
+                <LocaleSwitcher />
+            </div>
+            {/* Centered profile image */}
+            <Image
+                src={data?.profileImageUrl || "/assets/default-profile.png"}
+                alt={data?.fullName || "Profile"}
+                className="size-36 rounded-full"
+                width={144}
+                height={144}
+            />
             <svg className="absolute -z-10 -mt-20 right-0" width="890" height="764" viewBox="0 0 890 764" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path stroke="#e2e8f0" d="M.5.5h63.825v63.825H.5zm0 380.85h63.825v63.825H.5zM444.824.5h63.825v63.825h-63.825zm0 380.85h63.825v63.825h-63.825zM.5 190.924h63.825v63.825H.5zm0 380.849h63.825v63.825H.5zm444.324-380.849h63.825v63.825h-63.825zm0 380.849h63.825v63.825h-63.825z" />
                 <path stroke="#e2e8f0" d="M.5 63.975h63.825V127.8H.5zm0 380.849h63.825v63.825H.5zM444.824 63.975h63.825V127.8h-63.825zm0 380.849h63.825v63.825h-63.825zM.5 254.4h63.825v63.825H.5zm0 380.85h63.825v63.825H.5zM444.824 254.4h63.825v63.825h-63.825zm0 380.85h63.825v63.825h-63.825z" />
@@ -36,13 +52,7 @@ export default function HeroSection() {
                 </defs>
             </svg>
 
-            <Image
-                src={data?.profileImageUrl || "/assets/default-profile.png"}
-                alt={data?.fullName || "Profile"}
-                className="size-36 rounded-full"
-                width={144}
-                height={144}
-            />
+
 
             <h2 className="text-4xl md:text-6xl font-semibold mt-6">
                 {data.fullName}
@@ -53,13 +63,13 @@ export default function HeroSection() {
             <div className="mt-6 flex gap-4">
                 {data.resumeUrl && (
                     <a href={data.resumeUrl} target="_blank" rel="noopener noreferrer" className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg flex items-center">
-                        Resume
+                        {t('home.resume')}
                         <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5 inline-flex" />
                     </a>
                 )}
                 {data.linkedinUrl && (
                     <a href={data.linkedinUrl} target="_blank" rel="noopener noreferrer" className="border border-gray-400 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg ml-2 flex items-center">
-                        <Linkedin className="w-5 h-5 mr-2" /> Connect
+                        <Linkedin className="w-5 h-5 mr-2" /> {t('home.connect')}
                     </a>
                 )}
             </div>

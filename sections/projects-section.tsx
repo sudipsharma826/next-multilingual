@@ -1,6 +1,8 @@
+
 import Section from "@/components/section";
 import Image from "next/image";
 import personal from "@/lib/data/personal.json";
+import { useTranslations } from 'next-intl';
 
 export default function ProjectsSection() {
     type Project = {
@@ -14,8 +16,9 @@ export default function ProjectsSection() {
         imageUrl?: string;
     };
     const projects: Project[] = personal.projects;
+    const t = useTranslations();
     return (
-        <Section title="Projects">
+        <Section title={t('projects.title')}>
             <div className="flex flex-wrap justify-center items-center gap-6 mr-auto">
                 {projects.map((project) => (
                     <div key={project.title} className="hover:-translate-y-0.5 transition duration-300 max-w-80 border border-gray-200 rounded-xl bg-white shadow-md flex flex-col">

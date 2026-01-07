@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Poppins, Sorts_Mill_Goudy } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import LenisScroll from "@/components/lenis";
 import { NextIntlClientProvider,hasLocale } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import { setRequestLocale } from "next-intl/server";
 
 
 const poppins = Poppins({
@@ -24,6 +25,10 @@ export const metadata: Metadata = {
     description: "I’m Sudip Sharma, a full-stack developer who believes technology is more than code — it’s a bridge between ideas and impact. From an early curiosity about how things work to a professional pursuit of building scalable, user-focused solutions, I’ve always been driven by a desire to learn, create, and grow.\n\nMy mission is simple: to be happy and spread happiness through my work and interactions. Whether it’s solving complex technical challenges or exploring new technologies, I approach every project with creativity, curiosity, and a commitment to excellence.\n\nI see every line of code as an opportunity to craft something meaningful — to make systems smarter, users happier, and life a little better through innovation and thoughtful design",
 };
 
+// ssg rendering ( getStaticProps )
+export function generateStaticParams() {
+    return routing.locales.map((locale) => ({ locale }));
+}
 export default async function RootLayout({
     children,
     params,
@@ -36,6 +41,8 @@ export default async function RootLayout({
         notFound();
 
     }
+    //passed locale to all the server compmonents
+    setRequestLocale(locale);
     return (
         <html lang="en">
             <body>

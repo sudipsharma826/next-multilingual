@@ -1,11 +1,14 @@
+
 import Section from "@/components/section";
 import Image from "next/image";
 import personal from "@/lib/data/personal.json";
+import { useTranslations } from 'next-intl';
 
 export default function EducationSection() {
     const educations = personal.educations;
+    const t = useTranslations();
     return (
-        <Section title="Education">
+        <Section title={t('education.title')}>
             <div className="space-y-6">
                 {educations.map((edu, idx) => (
                     <div key={idx} className="w-full border border-gray-200 p-6 rounded-xl bg-white">
