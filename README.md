@@ -1,36 +1,187 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Internationalization Setup with next-intl
 
-## Getting Started
+This project uses [next-intl](https://next-intl-docs.vercel.app/) for multilingual support in Next.js.
 
-First, run the development server:
+### 1. Install Required Packages
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install next-intl
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Configure Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Update your `next.config.ts` to enable internationalized routing:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```ts
+// next.config.ts
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  i18n: {
+    locales: ['en', 'fr', 'es'], // Add your supported locales here
+    defaultLocale: 'en',
+  },
+  // ...other config
+};
 
-## Learn More
+module.exports = nextConfig;
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Create Middleware Proxy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add a `proxy.ts` file at the root of your project to handle locale-based routing or middleware logic as needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```ts
+// proxy.ts
+// Example: You can add custom logic here for handling requests or locale redirects
+```
 
-## Deploy on Vercel
+### 4. Set Up the `i18n` Folder
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Create an `i18n` directory at the root with the following files:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `request.ts`: Handles locale detection and request helpers.
+- `routing.ts`: Contains locale-aware routing helpers and configuration.
+- `navigation.ts`: Manages navigation items and translations.
+
+Example structure:
+
+```
+i18n/
+  ├─ request.ts
+  ├─ routing.ts
+  └─ navigation.ts
+```
+
+### 5. Use next-intl in Your App
+
+Wrap your app with `NextIntlClientProvider` and use the locale from params:
+
+```tsx
+// app/[locale]/layout.tsx
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
+
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  return (
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
+```
+
+### 6. Add Global CSS Support
+
+If you import global CSS (e.g., `import "./globals.css";`), add a TypeScript declaration file at the root:
+
+```ts
+// global.d.ts
+declare module "*.css";
+```
+### 7. Create a Dynamic Route for Locale
+
+Create a new folder named `[locale]` inside your `app/` directory. Inside `[locale]`, add a `layout.tsx` file:
+
+```tsx
+// app/[locale]/layout.tsx
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
+
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  return (
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider locale={locale}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
+```
+
+- The `[locale]` route enables locale-based routing.
+- The `locale` is extracted from `params`.
+- `hasLocale` checks if the locale is supported.
+- Children are wrapped in `NextIntlClientProvider` for translation support.
+
+---
+
+This ensures all pages under the `[locale]` route are properly internationalized.
+---
+
+### 8. Add Messages for Each Locale
+
+Create a `messages` folder in the root of your project. Inside, add two files: `en.json` and `np.json` (for English and Nepali).
+
+Example structure:
+```
+messages/
+  ├─ en.json
+  └─ np.json
+```
+
+Each file should contain key-value pairs for your translations:
+
+**en.json**
+```json
+{
+  "about": "About Me",
+  "projects": "Projects",
+  "contact": "Contact",
+  // ...other keys
+}
+```
+
+**np.json**
+```json
+{
+  "about": "मेरो बारेमा",
+  "projects": "परियोजनाहरू",
+  "contact": "सम्पर्क",
+  // ...other keys
+}
+```
+
+Update your app to load the correct messages based on the locale. For example, in your `[locale]/layout.tsx`:
+
+```tsx
+import { NextIntlClientProvider } from "next-intl";
+import messagesEn from "@/messages/en.json";
+import messagesNp from "@/messages/np.json";
+
+const messages = {
+  en: messagesEn,
+  np: messagesNp,
+};
+
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;
+  // ...locale check logic...
+  return (
+    <html lang={locale}>
+      <body>
+        <NextIntlClientProvider messages={messages[locale]}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
+```
+
+Now your Next.js app is ready for multilingual support using next-intl!

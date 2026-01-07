@@ -1,13 +1,12 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
-export const output = "export";
 
 const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
     remotePatterns: [{ hostname: "res.cloudinary.com" }],
   },
-  output:"export",
 };
-
-export default nextConfig;
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(nextConfig);
