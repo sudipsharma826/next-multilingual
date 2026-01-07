@@ -1,11 +1,14 @@
 
 import Section from "@/components/section";
 import Image from "next/image";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from 'next-intl';
+import { type Certificate } from '@/hooks/usePersonalData';
 
-export default function CertificatesSection() {
-    const certificates = personal.certificates;
+interface CertificatesSectionProps {
+  certificates: Certificate[];
+}
+
+export default function CertificatesSection({ certificates }: CertificatesSectionProps) {
     if (!certificates || certificates.length === 0) return null;
     const t = useTranslations();
     return (

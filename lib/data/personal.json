@@ -1,11 +1,11 @@
 {
   "personalData": {
-    "fullName": "Sudip Sharma",
-    "title": "Full Stack Developer",
-    "bio": "I’m Sudip Sharma, a full-stack developer who believes technology is more than code — it’s a bridge between ideas and impact. From an early curiosity about how things work to a professional pursuit of building scalable, user-focused solutions, I’ve always been driven by a desire to learn, create, and grow.\n\nMy mission is simple: to be happy and spread happiness through my work and interactions. Whether it’s solving complex technical challenges or exploring new technologies, I approach every project with creativity, curiosity, and a commitment to excellence.\n\nI see every line of code as an opportunity to craft something meaningful — to make systems smarter, users happier, and life a little better through innovation and thoughtful design.",
+    "fullName": {"en": "Sudip Sharma", "np": "सुदीप शर्मा"},
+    "title": {"en": "Full Stack Developer", "np": "फुल स्ट्याक डेभलपर"},
+    "bio": {"en": "I’m Sudip Sharma, a full-stack developer who believes technology is more than code — it’s a bridge between ideas and impact. From an early curiosity about how things work to a professional pursuit of building scalable, user-focused solutions, I’ve always been driven by a desire to learn, create, and grow.\n\nMy mission is simple: to be happy and spread happiness through my work and interactions. Whether it’s solving complex technical challenges or exploring new technologies, I approach every project with creativity, curiosity, and a commitment to excellence.\n\nI see every line of code as an opportunity to craft something meaningful — to make systems smarter, users happier, and life a little better through innovation and thoughtful design.", "np": "म सुदीप शर्मा हुँ, एक फुल-स्ट्याक डेभलपर जसले प्रविधिलाई केवल कोड भन्दा बढी मान्दछ — यो विचार र प्रभाव बीचको पुल हो। कसरी काम गर्छ भन्ने प्रारम्भिक जिज्ञासाबाट लिएर स्केलेबल, प्रयोगकर्ता-केंद्रित समाधानहरू निर्माण गर्ने व्यावसायिक प्रयाससम्म, म सधैं सिक्न, सिर्जना गर्न, र बढ्न चाहने इच्छाले प्रेरित भएको छु।\n\nमेरो मिशन सरल छ: खुशी हुनु र मेरो काम र अन्तरक्रियाहरू मार्फत खुशी फैलाउनु। चाहे जटिल प्राविधिक चुनौतीहरू समाधान गर्नु होस् वा नयाँ प्रविधिहरू अन्वेषण गर्नु होस्, म प्रत्येक परियोजनामा रचनात्मकता, जिज्ञासा, र उत्कृष्टतामा प्रतिबद्धताका साथ अघि बढ्छु।\n\nम प्रत्येक कोडको लाइनलाई केही अर्थपूर्ण बनाउनको अवसरको रूपमा हेर्छु — प्रणालीहरूलाई स्मार्ट बनाउन, प्रयोगकर्ताहरूलाई खुशी बनाउन, र नवप्रवर्तन र विचारशील डिजाइन मार्फत जीवनलाई अलि राम्रो बनाउन।"},
     "email": "sudeepsharma826@gmail.com",
     "phone": "+977 9816662624",
-    "location": "Pokhara,Nepal",
+    "location": {"en": "Pokhara, Nepal", "np": "पोखरा, नेपाल"},
     "profileImageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1761792525/portfolio/pcq5sv1r8wbefxxrsuye.png",
     "resumeUrl": "https://docs.google.com/document/d/1j0Rm25p0UQFnths_5GNH4Ao3dMAf1CUp093x-gbNbCs/edit?usp=sharing",
     "cvUrl": "",
@@ -14,60 +14,66 @@
     "twitterUrl": "",
     "websiteUrl": "https://sudipsharma.info.np",
     "facebookUrl": "https://www.facebook.com/sudipsharma.np/",
-    "summary": "🚀 Passionate Full-Stack Developer with over 2 years of experience crafting scalable and high-performance web applications using React, Next.js, and Node.js, enhanced with advanced AI integrations. Dedicated to building clean, intuitive user interfaces and developing robust APIs that power seamless digital experiences. Always eager to learn, innovate, and deliver cutting-edge, quality-driven solutions that make an impact.",
-    "objective": "Passionate about continuous learning and building innovative applications that combine creativity, technology, and purpose.",
-    "heroBio": "A passionate full-stack developer driven by curiosity, creativity, and continuous learning. I build meaningful digital experiences that inspire growth, innovation, and happiness.",
-    "languages": "English,Nepali",
-    "hobbies": "Writing Tech Blogs, Web Development, Cloud Computing, DevOps, Open Source",
-    "references": "",
+    "references": [
+      {
+        "name": {"en": "Manish Basnet", "np": "मनीष बस्नेत"},
+        "role": {"en": "Digital Pathshala / Founder", "np": "डिजिटल पाठशाला / संस्थापक"},
+        "phone": "+977 981-6366094"
+      },
+      {
+        "name": {"en": "Buddha Ram Gurung", "np": "बुधा राम गुरुङ"},
+        "role": {"en": "Code To Earn / Founder", "np": "कोड टु अर्न / संस्थापक"},
+        "phone": "+977 980-8458856"
+      }
+    ],
     "currentLearning": "Nest.js"
   },
   "experiences": [
     {
-      "company": "Code To Earn (c2e)",
-      "position": "Backend Software Engineer",
-      "location": "Nepal",
-      "startDate": "2025-11-06T00:00:00.000Z",
+      "company": {"en": "Code To Earn (c2e)", "np": "कोड टु अर्न (c2e)"},
+      "position": {"en": "Backend Software Engineer", "np": "ब्याकएन्ड सफ्टवेयर इन्जिनियर"},
+      "location": {"en": "Nepal", "np": "नेपाल"},
+      "startDate": {"en": "2025-11-06", "np": "२०२५-११-०६"},
       "endDate": null,
-      "description": "As a Backend Developer, my main responsibilities include developing scalable and efficient backend solutions while ensuring system performance and reliability. I actively collaborate in open-source projects and contribute to organizational development events. I focus on using modern tools and frameworks to build full-stack applications and integrate advanced technologies. My work also involves exploring innovative solutions such as containerization and AI integration to enhance product capability and user experience. I continue to expand my skills and update my knowledge as I grow in this field.",
-      "achievements": "[\"Backend Development\"]",
+      "description": {"en": "As a Backend Developer, my main responsibilities include developing scalable and efficient backend solutions while ensuring system performance and reliability. I actively collaborate in open-source projects and contribute to organizational development events. I focus on using modern tools and frameworks to build full-stack applications and integrate advanced technologies. My work also involves exploring innovative solutions such as containerization and AI integration to enhance product capability and user experience. I continue to expand my skills and update my knowledge as I grow in this field.", "np": "ब्याकएन्ड विकासकर्ताको रूपमा, मेरो मुख्य जिम्मेवारीहरूमा प्रणाली प्रदर्शन र विश्वसनीयता सुनिश्चित गर्दै स्केलेबल र प्रभावकारी ब्याकएन्ड समाधानहरू विकास गर्नु पर्दछ। म खुला स्रोत परियोजनाहरूमा सक्रिय रूपमा सहकार्य गर्छु र संगठनात्मक विकास घटनाहरूमा योगदान दिन्छु। म आधुनिक उपकरणहरू र फ्रेमवर्कहरू प्रयोग गरेर पूर्ण-स्ट्याक अनुप्रयोगहरू निर्माण गर्न र उन्नत प्रविधिहरू एकीकृत गर्न केन्द्रित छु। मेरो कामले उत्पादन क्षमता र प्रयोगकर्ता अनुभव सुधार गर्न कन्टेनराइजेशन र एआई एकीकरण जस्ता नवीन समाधानहरू अन्वेषण गर्न पनि समावेश गर्दछ। म यस क्षेत्रमा बढ्दै जाँदा मेरो सीपहरू विस्तार गर्न र मेरो ज्ञान अद्यावधिक गर्न जारी राख्छु।"},
+      "achievements": {"en": ["Backend Development"], "np": ["ब्याकएन्ड विकास"]},
       "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1762418480/portfolio/tedb6mpdfahdxkmiswjs.png"
     },
-    {
-      "company": "Lunar I.T. Solution Pvt. Ltd.",
-      "position": "Full Stack Developer -Intern ( Remote)",
-      "location": "Itahari ,Nepal",
-      "startDate": "2024-11-01T00:00:00.000Z",
-      "endDate": "2025-02-13T00:00:00.000Z",
-      "description": "Developed a full-stack blog application using Next.js and NestJS with key features like full CRUD operations, user authentication & authorization, and payment integration. Gained hands-on experience in backend structuring, API management, and deploying scalable full-stack applications with strong focus on security, error handling, and performance.",
-      "achievements": "[\"Full Phase Application Development\",\"CI/CD PipleLining\"]",
+{
+      "company": {"en": "Lunar I.T. Solution Pvt. Ltd.", "np": "लुनार आई.टी. सोलुसन प्रा. लि."},
+      "position": {"en": "Full Stack Developer -Intern ( Remote)", "np": "फुल स्ट्याक डेभलपर - इन्टर्न (रिमोट)"},
+      "location": {"en": "Itahari, Nepal", "np": "इतहरी, नेपाल"},
+      "startDate": {"en": "2024-11-01", "np": "२०२४-११-०१"},
+      "endDate": {"en": "2025-02-13", "np": "२०२५-०२-१३"},
+      "description": {
+        "en": "Developed a full-stack blog application using Next.js and NestJS with key features like full CRUD operations, user authentication & authorization, and payment integration. Gained hands-on experience in backend structuring, API management, and deploying scalable full-stack applications with strong focus on security, error handling, and performance.",
+        "np": "Next.js र NestJS प्रयोग गरेर पूर्ण-स्ट्याक ब्लग एप्लिकेशन विकास गरियो, जसमा CRUD अपरेसनहरू, प्रयोगकर्ता प्रमाणीकरण र अधिकार व्यवस्थापन, र भुक्तानी एकीकरण जस्ता प्रमुख सुविधाहरू छन्। मैले ब्याकएन्ड संरचना, API व्यवस्थापन, र स्केलेबल पूर्ण-स्ट्याक अनुप्रयोग तैनाथ गर्न प्रत्यक्ष अनुभव प्राप्त गरें, सुरक्षा, त्रुटि व्यवस्थापन, र प्रदर्शनमा विशेष ध्यान दिँदै।"
+      },
+      "achievements": {
+        "en": ["Full Phase Application Development", "CI/CD Pipelining"],
+        "np": ["पूर्ण चरण अनुप्रयोग विकास", "CI/CD पाइपलाइन"]
+      },
       "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760314670/portfolio/o8a5lszn8u3lwr44nixf.jpg"
     }
   ],
   "educations": [
     {
-      "institution": "Gandaki College of Engineering and Science ( GCES )",
-      "degree": "Bachelor's of Software Engineering",
-      "field": "Computer Science , Software Engineering",
-      "location": "Pokhara,Nepal",
-      "startDate": "2023-10-24T00:00:00.000Z",
+      "institution": {"en": "Gandaki College of Engineering and Science ( GCES )", "np": "गण्डकी कलेज अफ इञ्जिनियरिङ र साइन्स (GCES)"},
+      "degree": {"en": "Bachelor's of Software Engineering", "np": "सफ्टवेयर इञ्जिनियरिङमा स्नातक"},
+      "field": {"en": "Computer Science , Software Engineering", "np": "कम्प्युटर साइन्स, सफ्टवेयर इञ्जिनियरिङ"},
+      "location": {"en": "Pokhara,Nepal", "np": "पोखरा, नेपाल"},
+      "startDate": {"en": "2023-10-24", "np": "२०२३-१०-२४"},
       "endDate": null,
       "grade": null,
-      "description": "I am currently pursuing a Bachelor's Degree in Software Engineering at Gandaki College of Engineering and Science, which is affiliated with Pokhara University. I began my studies in 2023.",
-      "achievements": ["Data Structure And Algorithm", "Database Management System"],
+      "description": {
+        "en": "I am currently pursuing a Bachelor's Degree in Software Engineering at Gandaki College of Engineering and Science, which is affiliated with Pokhara University. I began my studies in 2023.",
+        "np": "म हाल गण्डकी कलेज अफ इञ्जिनियरिङ र साइन्समा सफ्टवेयर इञ्जिनियरिङमा स्नातक तहको अध्ययन गर्दैछु, जुन पोखरा विश्वविद्यालयसँग संबद्ध छ। मैले मेरो अध्ययन २०२३ मा सुरु गरेको थिएँ।"
+      },
+      "achievements": {
+        "en": ["Data Structure And Algorithm", "Database Management System"],
+        "np": ["डाटा स्ट्रक्चर र एल्गोरिदम", "डाटाबेस व्यवस्थापन प्रणाली"]
+      },
       "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760314029/portfolio/lgy1knzotbzabshvc1ce.png"
-    },
-    {
-      "institution": "Gandaki Boarding School ( GBS )",
-      "degree": "School Leaving Certificate (SLC)",
-      "field": "Science (Physics, Chemistry, Mathematics, Computer Science)",
-      "location": "Pokhara,Nepal",
-      "startDate": "2022-06-01T00:00:00.000Z",
-      "endDate": "2023-04-01T00:00:00.000Z",
-      "grade": "A",
-      "description": "Proud to be a Gandakians, carrying forward the values and discipline instilled at Gandaki Boarding School that continue to guide my journey of learning and growth.",
-      "achievements": ["Computer Science Fundamentals"],
-      "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760401129/portfolio/hiesnhdxqhburf2txijq.jpg"
     }
   ],
   "skills": [
@@ -210,17 +216,28 @@
   ],
   "projects": [
     {
-      "title": "Personal AI Chat Assistant (RAG)",
-      "description": "Built a Retrieval-Augmented Generation (RAG) chatbot that combines NestJS backend, Hugging Face LLM models, and vector databases to deliver highly relevant AI responses. Chat context is maintained using Redis, and knowledge embeddings are stored in Supabase for fast and scalable retrieval.",
+      "title": {"en": "Personal AI Chat Assistant (RAG)", "np": "व्यक्तिगत AI च्याट सहायक (RAG)"},
+      "description": {
+        "en": "Built a Retrieval-Augmented Generation (RAG) chatbot that combines NestJS backend, Hugging Face LLM models, and vector databases to deliver highly relevant AI responses. Chat context is maintained using Redis, and knowledge embeddings are stored in Supabase for fast and scalable retrieval.",
+        "np": "NestJS ब्याकएन्ड, Hugging Face LLM मोडेलहरू, र भेक्टर डेटाबेसहरूलाई संयोजन गरी उच्च सान्दर्भिक AI प्रतिक्रिया दिने Retrieval-Augmented Generation (RAG) च्याटबोट निर्माण गरियो। च्याट सन्दर्भ Redis प्रयोग गरेर कायम राखिन्छ, र ज्ञान एम्बेडिङहरू छिटो र स्केलेबल पुनःप्राप्तिको लागि Supabase मा भण्डारण गरिन्छ।"
+      },
       "liveUrl": "",
       "githubUrl": "https://github.com/sudipsharma826/ragChatBot-Personal",
       "featured": true,
-      "features": [
-        "💪RAG Architecture: Retrieves relevant knowledge from vector embeddings to augment AI responses.",
-        "1️⃣Multi-response LLM: Generates different AI responses based on context and user queries.",
-        "🪨Supabase Vector DB: Stores embeddings and metadata for fast document retrieval.",
-        "👌Redis Integration: Maintains chat context and history for personalized conversations."
-      ],
+      "features": {
+        "en": [
+          "💪RAG Architecture: Retrieves relevant knowledge from vector embeddings to augment AI responses.",
+          "1️⃣Multi-response LLM: Generates different AI responses based on context and user queries.",
+          "🪨Supabase Vector DB: Stores embeddings and metadata for fast document retrieval.",
+          "👌Redis Integration: Maintains chat context and history for personalized conversations."
+        ],
+        "np": [
+          "💪RAG आर्किटेक्चर: भेक्टर एम्बेडिङबाट सान्दर्भिक ज्ञान ल्याएर AI प्रतिक्रियालाई समृद्ध बनाउँछ।",
+          "1️⃣ बहु-प्रतिक्रिया LLM: सन्दर्भ र प्रयोगकर्ता प्रश्नहरू अनुसार विभिन्न AI प्रतिक्रिया उत्पन्न गर्छ।",
+          "🪨 Supabase भेक्टर DB: छिटो कागजात पुनःप्राप्तिको लागि एम्बेडिङ र मेटाडाटा भण्डारण गर्छ।",
+          "👌Redis एकीकरण: व्यक्तिगत च्याटहरूको सन्दर्भ र इतिहास कायम राख्छ।"
+        ]
+      },
       "skills": [
         "Git & Github",
         "Supabase",
@@ -234,20 +251,34 @@
       "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1761142370/portfolio/gys9qguwtytuyo5lrien.png"
     },
     {
-      "title": "Blog Application",
-      "description": "A modern, full-featured blogging platform designed with robust security and seamless user experience in mind. The application supports CRUD operations for creating, reading, updating, and deleting blog posts, allowing users to manage content efficiently. It features user authentication to ensure secure access, and role-based access control to differentiate permissions for admins, authors, and regular users. Built with scalability and maintainability in mind, this app provides a clean, intuitive interface and a reliable backend for managing content dynamically.",
+      "title": {"en": "Blog Application", "np": "ब्लग अनुप्रयोग"},
+      "description": {
+        "en": "A modern, full-featured blogging platform designed with robust security and seamless user experience in mind. The application supports CRUD operations for creating, reading, updating, and deleting blog posts, allowing users to manage content efficiently. It features user authentication to ensure secure access, and role-based access control to differentiate permissions for admins, authors, and regular users. Built with scalability and maintainability in mind, this app provides a clean, intuitive interface and a reliable backend for managing content dynamically.",
+        "np": "एक आधुनिक, पूर्ण-फिचरयुक्त ब्लगिङ प्लेटफर्म, बलियो सुरक्षा र सहज प्रयोगकर्ता अनुभवको लागि डिजाइन गरिएको। अनुप्रयोगले ब्लग पोस्ट सिर्जना, पढ्न, अपडेट, र मेटाउन CRUD अपरेसनहरू समर्थन गर्दछ, जसले प्रयोगकर्ताहरूलाई सामग्री प्रभावकारी रूपमा व्यवस्थापन गर्न अनुमति दिन्छ। यसमा सुरक्षित पहुँच सुनिश्चित गर्न प्रयोगकर्ता प्रमाणीकरण, र प्रशासक, लेखक, र सामान्य प्रयोगकर्ताहरूका लागि अनुमति फरक गर्ने रोल-आधारित पहुँच नियन्त्रण समावेश छ। स्केलेबिलिटी र मर्मतयोग्यता ध्यानमा राखी यस एपले सफा, सहज इन्टरफेस र विश्वसनीय ब्याकएन्ड प्रदान गर्छ।"
+      },
       "liveUrl": "",
       "githubUrl": "https://github.com/sudipsharma826/NodeJs_Project",
       "featured": false,
-      "features": [
-        "User Authentication & Authorization",
-        "CRUD Operations",
-        " Password Reset via OTP Email",
-        "Role-Based Access Control",
-        "Team Collaboration Deadlines & Reminders",
-        "Use Passport.js ",
-        "Sequelize ORM"
-      ],
+      "features": {
+        "en": [
+          "User Authentication & Authorization",
+          "CRUD Operations",
+          "Password Reset via OTP Email",
+          "Role-Based Access Control",
+          "Team Collaboration Deadlines & Reminders",
+          "Use Passport.js",
+          "Sequelize ORM"
+        ],
+        "np": [
+          "प्रयोगकर्ता प्रमाणीकरण र अधिकार व्यवस्थापन",
+          "CRUD अपरेसनहरू",
+          "OTP ईमेल मार्फत पासवर्ड रिसेट",
+          "रोल-आधारित पहुँच नियन्त्रण",
+          "टीम सहकार्य, समयसीमा र सम्झाउने सुविधा",
+          "Passport.js प्रयोग",
+          "Sequelize ORM"
+        ]
+      },
       "skills": [
         "Multer",
         "Cloudinary",
@@ -265,20 +296,114 @@
       "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747995980/be8d6a3a-cc19-4cbb-a82b-80b224010bbb.png"
     },
     {
-      "title": "AI Ticket Assistant",
-      "description": "AI Ticket Platform streamlines ticket management with the help of AI-driven automation.\nUsers can create tickets by providing a title and a short description — and the backend (powered by AgentKit and Inngest) intelligently analyzes the request to determine priority, deadline, and suitable user assignment.\n\nNote:\nThe backend is hosted for free on Render and may enter sleep mode.\nTo ensure full functionality, please wake it up by visiting:\n👉 https://full-stack-ai-agent-87lk.onrender.com/",
+      "title": {"en": "Personal AI Chat Assistant (RAG)", "np": "व्यक्तिगत AI च्याट सहायक (RAG)"},
+      "description": {
+        "en": "Built a Retrieval-Augmented Generation (RAG) chatbot that combines NestJS backend, Hugging Face LLM models, and vector databases to deliver highly relevant AI responses. Chat context is maintained using Redis, and knowledge embeddings are stored in Supabase for fast and scalable retrieval.",
+        "np": "NestJS ब्याकएन्ड, Hugging Face LLM मोडेलहरू, र भेक्टर डेटाबेसहरूलाई संयोजन गरी उच्च सान्दर्भिक AI प्रतिक्रिया दिने Retrieval-Augmented Generation (RAG) च्याटबोट निर्माण गरियो। च्याट सन्दर्भ Redis प्रयोग गरेर कायम राखिन्छ, र ज्ञान एम्बेडिङहरू छिटो र स्केलेबल पुनःप्राप्तिको लागि Supabase मा भण्डारण गरिन्छ।"
+      },
+      "liveUrl": "",
+      "githubUrl": "https://github.com/sudipsharma826/ragChatBot-Personal",
+      "featured": true,
+      "features": {
+        "en": [
+          "💪RAG Architecture: Retrieves relevant knowledge from vector embeddings to augment AI responses.",
+          "1️⃣Multi-response LLM: Generates different AI responses based on context and user queries.",
+          "🪨Supabase Vector DB: Stores embeddings and metadata for fast document retrieval.",
+          "👌Redis Integration: Maintains chat context and history for personalized conversations."
+        ],
+        "np": [
+          "💪RAG आर्किटेक्चर: भेक्टर एम्बेडिङबाट सान्दर्भिक ज्ञान ल्याएर AI प्रतिक्रियालाई समृद्ध बनाउँछ।",
+          "1️⃣ बहु-प्रतिक्रिया LLM: सन्दर्भ र प्रयोगकर्ता प्रश्नहरू अनुसार विभिन्न AI प्रतिक्रिया उत्पन्न गर्छ।",
+          "🪨 Supabase भेक्टर DB: छिटो कागजात पुनःप्राप्तिको लागि एम्बेडिङ र मेटाडाटा भण्डारण गर्छ।",
+          "👌Redis एकीकरण: व्यक्तिगत च्याटहरूको सन्दर्भ र इतिहास कायम राख्छ।"
+        ]
+      },
+      "skills": [
+        "Git & Github",
+        "Supabase",
+        "TypeScript",
+        "Resend Email",
+        "Redis",
+        "JsonWebToken",
+        "AI / AI Services",
+        "NestJs"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1761142370/portfolio/gys9qguwtytuyo5lrien.png"
+    },
+    {
+      "title": {"en": "Blog Application", "np": "ब्लग अनुप्रयोग"},
+      "description": {
+        "en": "A modern, full-featured blogging platform designed with robust security and seamless user experience in mind. The application supports CRUD operations for creating, reading, updating, and deleting blog posts, allowing users to manage content efficiently. It features user authentication to ensure secure access, and role-based access control to differentiate permissions for admins, authors, and regular users. Built with scalability and maintainability in mind, this app provides a clean, intuitive interface and a reliable backend for managing content dynamically.",
+        "np": "एक आधुनिक, पूर्ण-फिचरयुक्त ब्लगिङ प्लेटफर्म, बलियो सुरक्षा र सहज प्रयोगकर्ता अनुभवको लागि डिजाइन गरिएको। अनुप्रयोगले ब्लग पोस्ट सिर्जना, पढ्न, अपडेट, र मेटाउन CRUD अपरेसनहरू समर्थन गर्दछ, जसले प्रयोगकर्ताहरूलाई सामग्री प्रभावकारी रूपमा व्यवस्थापन गर्न अनुमति दिन्छ। यसमा सुरक्षित पहुँच सुनिश्चित गर्न प्रयोगकर्ता प्रमाणीकरण, र प्रशासक, लेखक, र सामान्य प्रयोगकर्ताहरूका लागि अनुमति फरक गर्ने रोल-आधारित पहुँच नियन्त्रण समावेश छ। स्केलेबिलिटी र मर्मतयोग्यता ध्यानमा राखी यस एपले सफा, सहज इन्टरफेस र विश्वसनीय ब्याकएन्ड प्रदान गर्छ।"
+      },
+      "liveUrl": "",
+      "githubUrl": "https://github.com/sudipsharma826/NodeJs_Project",
+      "featured": false,
+      "features": {
+        "en": [
+          "User Authentication & Authorization",
+          "CRUD Operations",
+          "Password Reset via OTP Email",
+          "Role-Based Access Control",
+          "Team Collaboration Deadlines & Reminders",
+          "Use Passport.js",
+          "Sequelize ORM"
+        ],
+        "np": [
+          "प्रयोगकर्ता प्रमाणीकरण र अधिकार व्यवस्थापन",
+          "CRUD अपरेसनहरू",
+          "OTP ईमेल मार्फत पासवर्ड रिसेट",
+          "रोल-आधारित पहुँच नियन्त्रण",
+          "टीम सहकार्य, समयसीमा र सम्झाउने सुविधा",
+          "Passport.js प्रयोग",
+          "Sequelize ORM"
+        ]
+      },
+      "skills": [
+        "Multer",
+        "Cloudinary",
+        "Moongose",
+        "JsonWebToken",
+        "Express.js",
+        "Git & Github",
+        "React",
+        "MySql",
+        "SQL",
+        "JavaScript",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747995980/be8d6a3a-cc19-4cbb-a82b-80b224010bbb.png"
+    },
+    {
+      "title": {"en": "AI Ticket Assistant", "np": "AI टिकट सहायक"},
+      "description": {
+        "en": "AI Ticket Platform streamlines ticket management with the help of AI-driven automation. Users can create tickets by providing a title and a short description — and the backend (powered by AgentKit and Inngest) intelligently analyzes the request to determine priority, deadline, and suitable user assignment.",
+        "np": "AI टिकट प्लेटफर्म AI-चालित स्वचालनको मद्दतले टिकट व्यवस्थापन सरल बनाउँछ। प्रयोगकर्ताले शीर्षक र छोटो विवरण प्रदान गरेर टिकट सिर्जना गर्न सक्छन् — र ब्याकएन्ड (AgentKit र Inngest द्वारा संचालित) बुद्धिमानीपूर्वक अनुरोध विश्लेषण गरेर प्राथमिकता, समयसीमा, र उपयुक्त प्रयोगकर्ता नियुक्ति निर्धारण गर्छ।"
+      },
       "liveUrl": "https://aiticket.sudipsharma.com.np",
       "githubUrl": "https://github.com/sudipsharma826/full-stack-ai-agent",
       "featured": false,
-      "features": [
-        "AI automatically analyzes issue context using AgentKit and Inngest",
-        "Auto-assigns ticket to the most skilled user",
-        "AI decides priority, deadline, and skill requirements",
-        "Sends email notification to the assigned user with problem solving tips generated by AI",
-        "Role-based permissions (Admin, Moderator, User)",
-        "Session persistence using Zustand + localStorage",
-        "Docketize Application"
-      ],
+      "features": {
+        "en": [
+          "AI automatically analyzes issue context using AgentKit and Inngest",
+          "Auto-assigns ticket to the most skilled user",
+          "AI decides priority, deadline, and skill requirements",
+          "Sends email notification to the assigned user with problem solving tips generated by AI",
+          "Role-based permissions (Admin, Moderator, User)",
+          "Session persistence using Zustand + localStorage",
+          "Docketize Application"
+        ],
+        "np": [
+          "AgentKit र Inngest प्रयोग गरी AI ले मुद्दाको सन्दर्भ स्वतः विश्लेषण गर्छ",
+          "सबैभन्दा दक्ष प्रयोगकर्तालाई टिकट स्वतः तोक्छ",
+          "AI ले प्राथमिकता, समयसीमा, र आवश्यक सीप निर्धारण गर्छ",
+          "AI द्वारा तयार पारिएका समस्या समाधान सुझावहरू सहित ईमेल सूचनाहरू तोकिएको प्रयोगकर्तालाई पठाउँछ",
+          "रोल-आधारित अनुमति (प्रशासक, मोडरेटर, प्रयोगकर्ता)",
+          "Zustand + localStorage प्रयोग गरेर सत्र कायम राखिन्छ",
+          "Docketize अनुप्रयोग"
+        ]
+      },
       "skills": [
         "Express.js",
         "Zustand",
@@ -295,270 +420,31 @@
         "Docker"
       ],
       "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760359060/portfolio/vj24e6ff8wbk0as88h3f.png"
-    },
-    {
-      "title": "Todo-List-App",
-      "description": "Todo List App Using Redux Toolkit for global state management",
-      "liveUrl": "https://todo.sudipsharma.com.np/",
-      "githubUrl": "https://github.com/sudipsharma826/Todo--Redux-React",
-      "featured": false,
-      "features": [
-        "Global State Management"
-      ],
-      "skills": [
-        "Redux /React Toolkit",
-        "Git & Github",
-        "JavaScript",
-        "TailwindCSS",
-        "React"
-      ],
-      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747998711/ChatGPT_Image_May_23_2025_04_56_30_PM_bnoowu.png"
-    },
-    {
-      "title": "Gantbaya",
-      "description": "Gantabya is a Next.js application for trip planning, location tracking, and sharing. It provides UIs for creating trips, adding locations, viewing maps, and building trip plans.",
-      "liveUrl": "https://gantabya.sudipsharma.com.np/",
-      "githubUrl": "https://github.com/sudipsharma826/gantabya",
-      "featured": false,
-      "features": [
-        "Create, update, and delete trips",
-        "Create, update, and delete trips",
-        "File/image upload via UploadThing",
-        "Interactive maps using Leaflet and routing via leaflet-routing-machine"
-      ],
-      "skills": [
-        "Next.js",
-        "TailwindCSS",
-        "TypeScript",
-        "Postgresql",
-        "PrismaOrm",
-        "React",
-        "Git & Github",
-        "NextAuth.js",
-        "Cloudinary"
-      ],
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760416582/portfolio/ykawoihjae9zbwgvyioh.png"
-    },
-    {
-      "title": "Personal Portfolio Website",
-      "description": "A modern, responsive personal portfolio website built to showcase my professional journey, technical skills, and projects as a Full Stack Developer. The site is designed with performance and scalability in mind, using Next.js, TypeScript, and Tailwind CSS for a seamless user experience. Dynamic content such as skills, experiences, and project data is fetched from a Redis cache and Prisma-powered database, ensuring high-speed access and minimal load times. The portfolio also integrates SEO optimization, metadata management, and a CMS-like admin interface for effortless updates.",
-      "liveUrl": "",
-      "githubUrl": "",
-      "featured": false,
-      "features": [
-        "⚡ Fast and Scalable – Utilizes server-side rendering and Redis caching for optimized performance.",
-        "🛠️ Easily Updatable – Backend integration allows updating data without redeployment.",
-        "💬 Personal AI Chat Assistant (RAG)"
-      ],
-      "skills": [
-        "React",
-        "Next.js",
-        "Git & Github",
-        "TailwindCSS",
-        "PrismaOrm",
-        "Postgresql",
-        "TypeScript",
-        "Cloudinary",
-        "Redis"
-      ],
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760695000/portfolio/kksz5p6ufy2pbgywa2hh.png"
-    },
-    {
-      "title": "AI Terminal Chat Agent",
-      "description": "Developed an AI-powered terminal chat assistant using LangChain, enabling dynamic conversations with contextual memory and intelligent responses. Integrated custom tools and APIs to simulate a human-like terminal chat experience.",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/sudipsharma826/ai-agent-via-Langchain",
-      "featured": false,
-      "features": [
-        "Contextual Memory",
-        "Custom Tool Integration",
-        "Interactive Terminal Experience"
-      ],
-      "skills": [
-        "LangChain",
-        "TypeScript"
-      ],
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760532594/portfolio/olm9qcmxfyt9tmoqppgz.png"
-    },
-    {
-      "title": "Ecommerce Site - Kirana Nepal",
-      "description": "A full-featured e-commerce platform with product catalog, cart functionality, user authentication, and payment integration.",
-      "liveUrl": "https://kirananepal.sudipsharma.com.np/",
-      "githubUrl": "https://github.com/sudipsharma826/kiranaNepal-Backend",
-      "featured": false,
-      "features": [
-        "User authentication  and Role Based Acess",
-        "Product catalog",
-        "Shopping cart",
-        "Payment processing",
-        "Order management"
-      ],
-      "skills": [
-        "Moongose",
-        "JsonWebToken",
-        "Express.js",
-        "Khalti Payments",
-        "Git & Github",
-        "React",
-        "JavaScript",
-        "MongoDB",
-        "TailwindCSS",
-        "Node.js",
-        "Multer",
-        "Cloudinary"
-      ],
-      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747993199/ChatGPT_Image_May_23_2025_03_24_26_PM_etl9jw.png"
-    },
-    {
-      "title": " AI Story Generator",
-      "description": "AI-powered storybook generator that creates personalized illustrated and narrated stories using Next.js, PostgreSQL Inngest, Agent Kit, Eleven Labs, and Redis.",
-      "liveUrl": "https://aistory.sudipsharma.com.np",
-      "githubUrl": "https://github.com/sudipsharma826/aiStory",
-      "featured": true,
-      "features": [
-        "Generate Story Using AI",
-        "AI Generated Voice with Suggestion",
-        "Review Story",
-        "AI Image Generation"
-      ],
-      "skills": [
-        "Git & Github",
-        "Supabase",
-        "Resend Email",
-        "AI / AI Services",
-        "ElevenLabs",
-        "Redis",
-        "React Hook Form",
-        "React",
-        "PrismaOrm",
-        "Postgresql",
-        "TailwindCSS",
-        "Node.js",
-        "Next.js",
-        "TypeScript",
-        "NextAuth.js"
-      ],
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760331865/portfolio/utxuag9cdn3ygivgt2ov.png"
-    },
-    {
-      "title": "CodeLink",
-      "description": "CodeLink is a modern, full-stack collaborative platform that combines real-time code editing, audio meetings, AI-powered chat assistance, and seamless team collaboration — all in one place.\n",
-      "liveUrl": "https://codelink.sudipsharma.com.np",
-      "githubUrl": "https://github.com/sudipsharma826/codeLink",
-      "featured": true,
-      "features": [
-        "Real Time Code Editor With Multiple Language Support With Audio",
-        "Fallbacks AI Model Handling",
-        "Khalti Payment Intergration",
-        "Intergrate Vapi AI Voice Agent",
-        "AI Chat Bot",
-        "Role Based Access"
-      ],
-      "skills": [
-        "Zod",
-        "Khalti Payments",
-        "Socket.Io",
-        "PrismaOrm",
-        "Vapi AI Voice Agent",
-        "Express.js",
-        "NextAuth.js",
-        "Git & Github",
-        "AI / AI Services",
-        "React",
-        "Postgresql",
-        "TypeScript",
-        "TailwindCSS",
-        "Node.js",
-        "Next.js",
-        "Zustand"
-      ],
-      "imageUrl": ""
     }
   ],
   "certificates": [
     {
-      "title": "Digital Pathshala certifies TypeScript",
-      "instituteName": "Digital Pathshala",
+      "title": {"en": "Digital Pathshala certifies TypeScript", "np": "Digital Pathshala द्वारा प्रमाणित TypeScript"},
+      "instituteName": {"en": "Digital Pathshala", "np": "Digital Pathshala"},
       "issueDate": "2024-05-13T00:00:00.000Z",
       "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083967/195e0d05-e6ea-47e7-b8c3-03e42453eb09.png",
       "credentialUrl": "https://dp-cs.digitalpathshalanepal.com/uploads/pdfs/certificate-1748064010242.pdf",
-      "description": "3 Hours Intensive TypeScript Workshop",
+      "description": {
+        "en": "3 Hours Intensive TypeScript Workshop",
+        "np": "३ घण्टा गहन TypeScript कार्यशाला"
+      },
       "featured": false,
-      "skills": [
-        "TypeScript",
-        "React",
-        "TailwindCSS"
-      ]
+      "skills": ["TypeScript", "React", "TailwindCSS"]
     },
     {
-      "title": "Meta certified Programming in Java Script",
-      "instituteName": "Coursera",
+      "title": {"en": "Meta certified Programming in Java Script", "np": "Meta प्रमाणित JavaScript प्रोग्रामिङ"},
+      "instituteName": {"en": "Coursera", "np": "Coursera"},
       "issueDate": "2023-12-04T00:00:00.000Z",
       "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760368188/portfolio/mgcvpt8swjv9zsbd9tpz.png",
       "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/5MP9WR2DEE8X",
-      "description": "",
+      "description": {"en": "", "np": ""},
       "featured": false,
-      "skills": [
-        "JavaScript"
-      ]
-    },
-    {
-      "title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
-      "instituteName": "Amazon Web Services (AWS)",
-      "issueDate": "2024-01-01T00:00:00.000Z",
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760368505/portfolio/fugdy8oots0xrg1odwks.png",
-      "credentialUrl": "https://www.credly.com/badges/a57e28d6-af73-4d3a-8db2-8d70dd608a27/linked_in_profile",
-      "description": "",
-      "featured": false,
-      "skills": [
-        "AWS Cloud"
-      ]
-    },
-    {
-      "title": "Tech Research and Innovation certified NextJs Workshop",
-      "instituteName": "Tech Research and Innovation",
-      "issueDate": "2024-10-01T00:00:00.000Z",
-      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760369065/portfolio/zzsuoxgdgznvyfcvsqfu.png",
-      "credentialUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083441/Sudip_Sharma_1_g4pydk.png",
-      "description": "",
-      "featured": false,
-      "skills": [
-        "Next.js",
-        "NextAuth.js"
-      ]
-    },
-    {
-      "title": "Full Stack Development with MERN Stack",
-      "instituteName": "Digital Pathshala",
-      "issueDate": "2025-05-24T00:00:00.000Z",
-      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748084539/955d98f9-25b0-4465-a538-261722f814ac.png",
-      "credentialUrl": "https://dp-cs.digitalpathshalanepal.com/uploads/pdfs/certificate-1748064033510.pdf",
-      "description": "Successfully completed the MERN Stack Development Course from Digital Pathshala (Student ID: 6d6dc9) under the mentorship of Manish Basnet.\nDuring the 3-month program, I learned to build full-fledged web applications using MongoDB, Express.js, React, and Node.js. The course enhanced my creativity, problem-solving, and debugging skills, strengthening my ability to design and develop scalable web solutions.",
-      "featured": true,
-      "skills": [
-        "Node.js",
-        "MongoDB",
-        "TailwindCSS",
-        "React",
-        "Git & Github",
-        "SQL",
-        "Express.js",
-        "MySql",
-        "JavaScript"
-      ]
-    },
-    {
-      "title": "Digital Pathshala ceritified Tailwind CSS",
-      "instituteName": "Digital Pathshala",
-      "issueDate": "2024-09-01T00:00:00.000Z",
-      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083081/bc258264-09e2-4c41-812e-2b35d681ab3a.png",
-      "credentialUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083081/bc258264-09e2-4c41-812e-2b35d681ab3a.png",
-      "description": "",
-      "featured": false,
-      "skills": [
-        "TailwindCSS",
-        "React"
-      ]
+      "skills": ["JavaScript"]
     }
   ]
 }

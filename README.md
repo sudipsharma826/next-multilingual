@@ -8,6 +8,7 @@ This project uses [next-intl](https://next-intl-docs.vercel.app/) for multilingu
 npm install next-intl
 ```
 
+
 ### 2. Configure Next.js
 
 Update your `next.config.ts` to enable internationalized routing:
@@ -198,3 +199,73 @@ Now your Next.js app is ready for multilingual support using next-intl!
 - All application UI data (labels, buttons, section titles, footer text, etc.) is integrated with next-intl using the `useTranslations` hook. All sections and the footer now use translation keys for multilingual support.
 
 ---
+## Personal Data Management with usePersonalData Hook
+
+This project uses a robust, scalable approach to manage all profile and resume data (name, bio, experience, education, etc.) with full multilingual support. Here’s how it works:
+
+### Step-by-Step Process
+
+1. **Define Data with Locales:**
+   - All personal, experience, education, and related data is stored in a single JSON file: `lib/data/personal.json`.
+   - Fields that need translation (like name, title, bio, etc.) are defined as objects with language keys, e.g.:
+     ```json
+     {
+       "fullName": { "en": "Sudip Sharma", "np": "सुदीप शर्मा" },
+       "title": { "en": "Full Stack Developer", "np": "फुल स्ट्याक डेभलपर" }
+     }
+     ```
+
+2. **Create a Centralized Data Hook:**
+   - The custom React hook [`usePersonalData`](hooks/usePersonalData.ts) reads the current locale, loads the JSON, and returns all data with the correct language values.
+   - The hook handles all transformation and localization logic, so components only receive ready-to-use, localized data.
+
+3. **Central Data Handling in Pages:**
+   - In your main page (e.g., `app/[locale]/page.tsx`), call the hook once to get all personal data for the current locale.
+   - Pass the relevant data as props to each section/component (About, Experience, Education, etc.), ensuring a single source of truth and consistent locale support.
+
+### Example Usage
+
+```tsx
+// app/[locale]/page.tsx
+import { usePersonalData } from '@/hooks/usePersonalData';
+import AboutSection from '@/sections/about-section';
+// ...other imports
+
+export default function Page() {
+  const data = usePersonalData();
+  return (
+    <>
+      <AboutSection personalData={data.personalData} /> with hooks intergration
+      {/* Pass other data as needed */}
+    </>
+  );
+}
+
+// In AboutSection: ( defined props type)
+export default function AboutSection({ personalData }) {
+  return (
+    <section>
+      <h1>{personalData.fullName}</h1>
+      <h2>{personalData.title}</h2>
+      <p>{personalData.bio}</p>
+      {/* ...other fields... */}
+    </section>
+  );
+}
+```
+
+### Why this approach?
+
+- **Centralization:** All data is in one place, making updates easy and consistent.
+- **Localization:** The hook provides the correct language (English or Nepali) automatically based on the current locale.
+- **Type Safety:** Strongly-typed data reduces bugs and improves developer experience.
+- **Reusability:** Any component can access up-to-date, localized data by calling the hook or receiving it as a prop.
+- **Separation of Concerns:** UI components focus on rendering, while the hook handles data transformation and localization.
+- **Consistent Props:** Passing data as props from the page ensures all sections use the same, up-to-date data and locale.
+
+---
+**In summary:**
+1. Define your data with both English and Nepali values in JSON.
+2. Use a single hook to handle locale and data transformation.
+3. Pass the localized data as props from your main page to all sections.
+This keeps your profile and resume data maintainable, scalable, and ready for multilingual support.

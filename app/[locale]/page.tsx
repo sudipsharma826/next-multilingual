@@ -12,6 +12,7 @@ import CertificatesSection from '@/sections/certificates-section';
 import ReferencesSection from '@/sections/references-section';
 import ContactSection from '@/sections/contact-section';
 import Footer from '@/components/footer';
+import { usePersonalData } from '@/hooks/usePersonalData';
 
 
 type Props = {
@@ -21,18 +22,19 @@ type Props = {
 export default function Page({ params }: Props) {
     const { locale } = use(params);
   const t = useTranslations();
+  const data = usePersonalData();
 
   return (
     <main className="max-md:px-4">
-      <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <EducationSection />
-      <SkillsSection />
-      <CertificatesSection />
-      <ReferencesSection />
-      <ContactSection />
+      <HeroSection personalData={data.personalData} />
+      <AboutSection personalData={data.personalData} />
+      <ProjectsSection projects={data.projects} />
+      <ExperienceSection experiences={data.experiences} />
+      <EducationSection educations={data.educations} />
+      <SkillsSection skills={data.skills} />
+      <CertificatesSection certificates={data.certificates} />
+      <ReferencesSection references={data.personalData.references} />
+      <ContactSection personalData={data.personalData} />
       <Footer />
     </main>
   );

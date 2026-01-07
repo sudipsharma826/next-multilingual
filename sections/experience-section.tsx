@@ -1,29 +1,14 @@
 
 import Section from "@/components/section";
 import Image from "next/image";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from 'next-intl';
+import { type Experience } from '@/hooks/usePersonalData';
 
-type Experience = {
-    company: string;
-    position: string;
-    location: string;
-    startDate: string;
-    endDate: string | null;
-    description: string;
-    achievements: string[];
-    logoUrl?: string;
-};
+interface ExperienceSectionProps {
+  experiences: Experience[];
+}
 
-export default function ExperienceSection() {
-    const experiences: Experience[] = personal.experiences.map((exp: any) => ({
-        ...exp,
-        achievements: Array.isArray(exp.achievements)
-            ? exp.achievements
-            : exp.achievements
-            ? [exp.achievements]
-            : [],
-    }));
+export default function ExperienceSection({ experiences }: ExperienceSectionProps) {
     const t = useTranslations();
     return (
         <Section title={t('experience.title')}>

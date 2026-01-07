@@ -1,11 +1,14 @@
 
 import Section from "@/components/section";
-import personal from "@/lib/data/personal.json";
 import { Github, Linkedin, Globe, Facebook, Mail, Phone, MapPin } from "lucide-react";
 import { useTranslations } from 'next-intl';
+import { type PersonalData } from '@/hooks/usePersonalData';
 
-export default function ContactSection() {
-    const data = personal.personalData;
+interface ContactSectionProps {
+  personalData: PersonalData;
+}
+
+export default function ContactSection({ personalData: data }: ContactSectionProps) {
     const t = useTranslations();
     return (
         <Section title={t('contact.title')}>

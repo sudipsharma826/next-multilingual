@@ -1,11 +1,13 @@
-
 import Section from "@/components/section";
 import Image from "next/image";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from 'next-intl';
+import { type PersonalData } from '@/hooks/usePersonalData';
 
-export default function AboutSection() {
-    const data = personal.personalData;
+interface AboutSectionProps {
+  personalData: PersonalData;
+}
+
+export default function AboutSection({ personalData: data }: AboutSectionProps) {
     const t = useTranslations();
     return (
         <Section title={t('about.title')}>

@@ -1,13 +1,16 @@
-
 import { ArrowRightIcon, Github, Linkedin, Globe, Facebook, Mail } from "lucide-react";
-import personal from "@/lib/data/personal.json";
 import Image from "next/image";
 import LocaleSwitcher from '@/components/LocaleSwitcher';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { type PersonalData } from '@/hooks/usePersonalData';
 
-export default function HeroSection() {
-    const data = personal.personalData;
+interface HeroSectionProps {
+  personalData: PersonalData;
+}
+
+export default function HeroSection({ personalData: data }: HeroSectionProps) {
     const t = useTranslations();
+    const locale = useLocale();
     return (
         <main className="flex flex-col items-center pt-32 max-md:px-4 relative">
             {/* Overlayed language switcher */}

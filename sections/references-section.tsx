@@ -1,11 +1,18 @@
-
 import Section from "@/components/section";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from "next-intl";
+import { type PersonalData } from '@/hooks/usePersonalData';
 
+type Reference = {
+  name: string;
+  role: string;
+  phone: string;
+};
 
-export default function ReferencesSection() {
-    const references = personal?.personalData.references;
+interface ReferencesSectionProps {
+  references: Reference[];
+}
+
+export default function ReferencesSection({ references }: ReferencesSectionProps) {
     if (!references || references.length === 0) return null;
     const t = useTranslations();
         return (

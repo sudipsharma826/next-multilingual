@@ -1,11 +1,14 @@
 
 import Section from "@/components/section";
 import Image from "next/image";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from 'next-intl';
+import { type Education } from '@/hooks/usePersonalData';
 
-export default function EducationSection() {
-    const educations = personal.educations;
+interface EducationSectionProps {
+  educations: Education[];
+}
+
+export default function EducationSection({ educations }: EducationSectionProps) {
     const t = useTranslations();
     return (
         <Section title={t('education.title')}>

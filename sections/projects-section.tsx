@@ -1,27 +1,20 @@
 
 import Section from "@/components/section";
 import Image from "next/image";
-import personal from "@/lib/data/personal.json";
 import { useTranslations } from 'next-intl';
+import { type Project } from '@/hooks/usePersonalData';
 
-export default function ProjectsSection() {
-    type Project = {
-        title: string;
-        description: string;
-        liveUrl: string;
-        githubUrl: string;
-        featured: boolean;
-        features: string[];
-        skills: string[];
-        imageUrl?: string;
-    };
-    const projects: Project[] = personal.projects;
+interface ProjectsSectionProps {
+  projects: Project[];
+}
+
+export default function ProjectsSection({ projects }: ProjectsSectionProps) {
     const t = useTranslations();
     return (
         <Section title={t('projects.title')}>
             <div className="flex flex-wrap justify-center items-center gap-6 mr-auto">
-                {projects.map((project) => (
-                    <div key={project.title} className="hover:-translate-y-0.5 transition duration-300 max-w-80 border border-gray-200 rounded-xl bg-white shadow-md flex flex-col">
+                {projects.map((project, idx) => (
+                    <div key={idx} className="hover:-translate-y-0.5 transition duration-300 max-w-80 border border-gray-200 rounded-xl bg-white shadow-md flex flex-col">
                         {/* Project preview image if available, else fallback */}
                         {project.imageUrl && project.imageUrl !== "" ? (
                             <Image

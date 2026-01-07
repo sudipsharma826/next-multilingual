@@ -1,10 +1,15 @@
 import Section from "@/components/section";
-import personal from "@/lib/data/personal.json";
 import { icons } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-export default function SkillsSection() {
-const iconMap: Record<string, keyof typeof icons> = {
+import { type Skill } from '@/hooks/usePersonalData';
+
+interface SkillsSectionProps {
+  skills: Skill[];
+}
+
+export default function SkillsSection({ skills }: SkillsSectionProps) {
+  const iconMap: Record<string, keyof typeof icons> = {
     "React": "React",
     "Next.js": "Box",
     "TailwindCSS": "Feather",
@@ -40,7 +45,6 @@ const iconMap: Record<string, keyof typeof icons> = {
     "SQL": "Database",
 };
 
-    const skills = personal.skills;
     const t = useTranslations();
     return (
         <Section title={t('skills.title')}>
