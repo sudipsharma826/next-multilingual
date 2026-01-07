@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "next export (SSG build)",
+			"type": "shell",
+			"command": "next build && next export",
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "next build",
+			"type": "shell",
+			"command": "next build",
+			"group": "build"
+		}
+	]
+}

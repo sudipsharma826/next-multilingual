@@ -1,0 +1,564 @@
+{
+  "personalData": {
+    "fullName": "Sudip Sharma",
+    "title": "Full Stack Developer",
+    "bio": "I’m Sudip Sharma, a full-stack developer who believes technology is more than code — it’s a bridge between ideas and impact. From an early curiosity about how things work to a professional pursuit of building scalable, user-focused solutions, I’ve always been driven by a desire to learn, create, and grow.\n\nMy mission is simple: to be happy and spread happiness through my work and interactions. Whether it’s solving complex technical challenges or exploring new technologies, I approach every project with creativity, curiosity, and a commitment to excellence.\n\nI see every line of code as an opportunity to craft something meaningful — to make systems smarter, users happier, and life a little better through innovation and thoughtful design.",
+    "email": "sudeepsharma826@gmail.com",
+    "phone": "+977 9816662624",
+    "location": "Pokhara,Nepal",
+    "profileImageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1761792525/portfolio/pcq5sv1r8wbefxxrsuye.png",
+    "resumeUrl": "https://docs.google.com/document/d/1j0Rm25p0UQFnths_5GNH4Ao3dMAf1CUp093x-gbNbCs/edit?usp=sharing",
+    "cvUrl": "",
+    "linkedinUrl": "https://www.linkedin.com/in/sudipsharmanp/",
+    "githubUrl": "https://github.com/sudipsharma826/",
+    "twitterUrl": "",
+    "websiteUrl": "https://sudipsharma.info.np",
+    "facebookUrl": "https://www.facebook.com/sudipsharma.np/",
+    "summary": "🚀 Passionate Full-Stack Developer with over 2 years of experience crafting scalable and high-performance web applications using React, Next.js, and Node.js, enhanced with advanced AI integrations. Dedicated to building clean, intuitive user interfaces and developing robust APIs that power seamless digital experiences. Always eager to learn, innovate, and deliver cutting-edge, quality-driven solutions that make an impact.",
+    "objective": "Passionate about continuous learning and building innovative applications that combine creativity, technology, and purpose.",
+    "heroBio": "A passionate full-stack developer driven by curiosity, creativity, and continuous learning. I build meaningful digital experiences that inspire growth, innovation, and happiness.",
+    "languages": "English,Nepali",
+    "hobbies": "Writing Tech Blogs, Web Development, Cloud Computing, DevOps, Open Source",
+    "references": "",
+    "currentLearning": "Nest.js"
+  },
+  "experiences": [
+    {
+      "company": "Code To Earn (c2e)",
+      "position": "Backend Software Engineer",
+      "location": "Nepal",
+      "startDate": "2025-11-06T00:00:00.000Z",
+      "endDate": null,
+      "description": "As a Backend Developer, my main responsibilities include developing scalable and efficient backend solutions while ensuring system performance and reliability. I actively collaborate in open-source projects and contribute to organizational development events. I focus on using modern tools and frameworks to build full-stack applications and integrate advanced technologies. My work also involves exploring innovative solutions such as containerization and AI integration to enhance product capability and user experience. I continue to expand my skills and update my knowledge as I grow in this field.",
+      "achievements": "[\"Backend Development\"]",
+      "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1762418480/portfolio/tedb6mpdfahdxkmiswjs.png"
+    },
+    {
+      "company": "Lunar I.T. Solution Pvt. Ltd.",
+      "position": "Full Stack Developer -Intern ( Remote)",
+      "location": "Itahari ,Nepal",
+      "startDate": "2024-11-01T00:00:00.000Z",
+      "endDate": "2025-02-13T00:00:00.000Z",
+      "description": "Developed a full-stack blog application using Next.js and NestJS with key features like full CRUD operations, user authentication & authorization, and payment integration. Gained hands-on experience in backend structuring, API management, and deploying scalable full-stack applications with strong focus on security, error handling, and performance.",
+      "achievements": "[\"Full Phase Application Development\",\"CI/CD PipleLining\"]",
+      "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760314670/portfolio/o8a5lszn8u3lwr44nixf.jpg"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Gandaki College of Engineering and Science ( GCES )",
+      "degree": "Bachelor's of Software Engineering",
+      "field": "Computer Science , Software Engineering",
+      "location": "Pokhara,Nepal",
+      "startDate": "2023-10-24T00:00:00.000Z",
+      "endDate": null,
+      "grade": null,
+      "description": "I am currently pursuing a Bachelor's Degree in Software Engineering at Gandaki College of Engineering and Science, which is affiliated with Pokhara University. I began my studies in 2023.",
+      "achievements": ["Data Structure And Algorithm", "Database Management System"],
+      "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760314029/portfolio/lgy1knzotbzabshvc1ce.png"
+    },
+    {
+      "institution": "Gandaki Boarding School ( GBS )",
+      "degree": "School Leaving Certificate (SLC)",
+      "field": "Science (Physics, Chemistry, Mathematics, Computer Science)",
+      "location": "Pokhara,Nepal",
+      "startDate": "2022-06-01T00:00:00.000Z",
+      "endDate": "2023-04-01T00:00:00.000Z",
+      "grade": "A",
+      "description": "Proud to be a Gandakians, carrying forward the values and discipline instilled at Gandaki Boarding School that continue to guide my journey of learning and growth.",
+      "achievements": ["Computer Science Fundamentals"],
+      "logoUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760401129/portfolio/hiesnhdxqhburf2txijq.jpg"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ElevenLabs",
+      "experienceYears": 0
+    },
+    {
+      "name": "Resend Email",
+      "experienceYears": 0
+    },
+    {
+      "name": "Supabase",
+      "experienceYears": 1
+    },
+    {
+      "name": "Git & Github",
+      "experienceYears": 3
+    },
+    {
+      "name": "PrismaOrm",
+      "experienceYears": 1
+    },
+    {
+      "name": "Postgresql",
+      "experienceYears": 1
+    },
+    {
+      "name": "Socket.Io",
+      "experienceYears": 0
+    },
+    {
+      "name": "MongoDB",
+      "experienceYears": 2
+    },
+    {
+      "name": "MySql",
+      "experienceYears": 2
+    },
+    {
+      "name": "Docker",
+      "experienceYears": 0
+    },
+    {
+      "name": "TypeScript",
+      "experienceYears": 1
+    },
+    {
+      "name": "AI / AI Services",
+      "experienceYears": 0
+    },
+    {
+      "name": "JavaScript",
+      "experienceYears": 3
+    },
+    {
+      "name": "React Hook Form",
+      "experienceYears": 0
+    },
+    {
+      "name": "Node.js",
+      "experienceYears": 2
+    },
+    {
+      "name": "TailwindCSS",
+      "experienceYears": 2
+    },
+    {
+      "name": "SQL",
+      "experienceYears": 1
+    },
+    {
+      "name": "Redis",
+      "experienceYears": 0
+    },
+    {
+      "name": "Zod",
+      "experienceYears": 0
+    },
+    {
+      "name": "Zustand",
+      "experienceYears": 0
+    },
+    {
+      "name": "Vapi AI Voice Agent",
+      "experienceYears": 0
+    },
+    {
+      "name": "NextAuth.js",
+      "experienceYears": 0
+    },
+    {
+      "name": "Express.js",
+      "experienceYears": 2
+    },
+    {
+      "name": "JsonWebToken",
+      "experienceYears": 0
+    },
+    {
+      "name": "Moongose",
+      "experienceYears": 2
+    },
+    {
+      "name": "Cloudinary",
+      "experienceYears": 0
+    },
+    {
+      "name": "Multer",
+      "experienceYears": 0
+    },
+    {
+      "name": "Redux /React Toolkit",
+      "experienceYears": 1
+    },
+    {
+      "name": "AWS Cloud",
+      "experienceYears": 0
+    },
+    {
+      "name": "Khalti Payments",
+      "experienceYears": 0
+    },
+    {
+      "name": "LangChain",
+      "experienceYears": 0
+    },
+    {
+      "name": "Next.js",
+      "experienceYears": 1
+    },
+    {
+      "name": "React",
+      "experienceYears": 2
+    },
+    {
+      "name": "NestJs",
+      "experienceYears": 0
+    }
+  ],
+  "projects": [
+    {
+      "title": "Personal AI Chat Assistant (RAG)",
+      "description": "Built a Retrieval-Augmented Generation (RAG) chatbot that combines NestJS backend, Hugging Face LLM models, and vector databases to deliver highly relevant AI responses. Chat context is maintained using Redis, and knowledge embeddings are stored in Supabase for fast and scalable retrieval.",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/sudipsharma826/ragChatBot-Personal",
+      "featured": true,
+      "features": [
+        "💪RAG Architecture: Retrieves relevant knowledge from vector embeddings to augment AI responses.",
+        "1️⃣Multi-response LLM: Generates different AI responses based on context and user queries.",
+        "🪨Supabase Vector DB: Stores embeddings and metadata for fast document retrieval.",
+        "👌Redis Integration: Maintains chat context and history for personalized conversations."
+      ],
+      "skills": [
+        "Git & Github",
+        "Supabase",
+        "TypeScript",
+        "Resend Email",
+        "Redis",
+        "JsonWebToken",
+        "AI / AI Services",
+        "NestJs"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1761142370/portfolio/gys9qguwtytuyo5lrien.png"
+    },
+    {
+      "title": "Blog Application",
+      "description": "A modern, full-featured blogging platform designed with robust security and seamless user experience in mind. The application supports CRUD operations for creating, reading, updating, and deleting blog posts, allowing users to manage content efficiently. It features user authentication to ensure secure access, and role-based access control to differentiate permissions for admins, authors, and regular users. Built with scalability and maintainability in mind, this app provides a clean, intuitive interface and a reliable backend for managing content dynamically.",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/sudipsharma826/NodeJs_Project",
+      "featured": false,
+      "features": [
+        "User Authentication & Authorization",
+        "CRUD Operations",
+        " Password Reset via OTP Email",
+        "Role-Based Access Control",
+        "Team Collaboration Deadlines & Reminders",
+        "Use Passport.js ",
+        "Sequelize ORM"
+      ],
+      "skills": [
+        "Multer",
+        "Cloudinary",
+        "Moongose",
+        "JsonWebToken",
+        "Express.js",
+        "Git & Github",
+        "React",
+        "MySql",
+        "SQL",
+        "JavaScript",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747995980/be8d6a3a-cc19-4cbb-a82b-80b224010bbb.png"
+    },
+    {
+      "title": "AI Ticket Assistant",
+      "description": "AI Ticket Platform streamlines ticket management with the help of AI-driven automation.\nUsers can create tickets by providing a title and a short description — and the backend (powered by AgentKit and Inngest) intelligently analyzes the request to determine priority, deadline, and suitable user assignment.\n\nNote:\nThe backend is hosted for free on Render and may enter sleep mode.\nTo ensure full functionality, please wake it up by visiting:\n👉 https://full-stack-ai-agent-87lk.onrender.com/",
+      "liveUrl": "https://aiticket.sudipsharma.com.np",
+      "githubUrl": "https://github.com/sudipsharma826/full-stack-ai-agent",
+      "featured": false,
+      "features": [
+        "AI automatically analyzes issue context using AgentKit and Inngest",
+        "Auto-assigns ticket to the most skilled user",
+        "AI decides priority, deadline, and skill requirements",
+        "Sends email notification to the assigned user with problem solving tips generated by AI",
+        "Role-based permissions (Admin, Moderator, User)",
+        "Session persistence using Zustand + localStorage",
+        "Docketize Application"
+      ],
+      "skills": [
+        "Express.js",
+        "Zustand",
+        "Git & Github",
+        "Resend Email",
+        "AI / AI Services",
+        "React",
+        "MongoDB",
+        "JavaScript",
+        "TailwindCSS",
+        "Node.js",
+        "Moongose",
+        "JsonWebToken",
+        "Docker"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760359060/portfolio/vj24e6ff8wbk0as88h3f.png"
+    },
+    {
+      "title": "Todo-List-App",
+      "description": "Todo List App Using Redux Toolkit for global state management",
+      "liveUrl": "https://todo.sudipsharma.com.np/",
+      "githubUrl": "https://github.com/sudipsharma826/Todo--Redux-React",
+      "featured": false,
+      "features": [
+        "Global State Management"
+      ],
+      "skills": [
+        "Redux /React Toolkit",
+        "Git & Github",
+        "JavaScript",
+        "TailwindCSS",
+        "React"
+      ],
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747998711/ChatGPT_Image_May_23_2025_04_56_30_PM_bnoowu.png"
+    },
+    {
+      "title": "Gantbaya",
+      "description": "Gantabya is a Next.js application for trip planning, location tracking, and sharing. It provides UIs for creating trips, adding locations, viewing maps, and building trip plans.",
+      "liveUrl": "https://gantabya.sudipsharma.com.np/",
+      "githubUrl": "https://github.com/sudipsharma826/gantabya",
+      "featured": false,
+      "features": [
+        "Create, update, and delete trips",
+        "Create, update, and delete trips",
+        "File/image upload via UploadThing",
+        "Interactive maps using Leaflet and routing via leaflet-routing-machine"
+      ],
+      "skills": [
+        "Next.js",
+        "TailwindCSS",
+        "TypeScript",
+        "Postgresql",
+        "PrismaOrm",
+        "React",
+        "Git & Github",
+        "NextAuth.js",
+        "Cloudinary"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760416582/portfolio/ykawoihjae9zbwgvyioh.png"
+    },
+    {
+      "title": "Personal Portfolio Website",
+      "description": "A modern, responsive personal portfolio website built to showcase my professional journey, technical skills, and projects as a Full Stack Developer. The site is designed with performance and scalability in mind, using Next.js, TypeScript, and Tailwind CSS for a seamless user experience. Dynamic content such as skills, experiences, and project data is fetched from a Redis cache and Prisma-powered database, ensuring high-speed access and minimal load times. The portfolio also integrates SEO optimization, metadata management, and a CMS-like admin interface for effortless updates.",
+      "liveUrl": "",
+      "githubUrl": "",
+      "featured": false,
+      "features": [
+        "⚡ Fast and Scalable – Utilizes server-side rendering and Redis caching for optimized performance.",
+        "🛠️ Easily Updatable – Backend integration allows updating data without redeployment.",
+        "💬 Personal AI Chat Assistant (RAG)"
+      ],
+      "skills": [
+        "React",
+        "Next.js",
+        "Git & Github",
+        "TailwindCSS",
+        "PrismaOrm",
+        "Postgresql",
+        "TypeScript",
+        "Cloudinary",
+        "Redis"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760695000/portfolio/kksz5p6ufy2pbgywa2hh.png"
+    },
+    {
+      "title": "AI Terminal Chat Agent",
+      "description": "Developed an AI-powered terminal chat assistant using LangChain, enabling dynamic conversations with contextual memory and intelligent responses. Integrated custom tools and APIs to simulate a human-like terminal chat experience.",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/sudipsharma826/ai-agent-via-Langchain",
+      "featured": false,
+      "features": [
+        "Contextual Memory",
+        "Custom Tool Integration",
+        "Interactive Terminal Experience"
+      ],
+      "skills": [
+        "LangChain",
+        "TypeScript"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760532594/portfolio/olm9qcmxfyt9tmoqppgz.png"
+    },
+    {
+      "title": "Ecommerce Site - Kirana Nepal",
+      "description": "A full-featured e-commerce platform with product catalog, cart functionality, user authentication, and payment integration.",
+      "liveUrl": "https://kirananepal.sudipsharma.com.np/",
+      "githubUrl": "https://github.com/sudipsharma826/kiranaNepal-Backend",
+      "featured": false,
+      "features": [
+        "User authentication  and Role Based Acess",
+        "Product catalog",
+        "Shopping cart",
+        "Payment processing",
+        "Order management"
+      ],
+      "skills": [
+        "Moongose",
+        "JsonWebToken",
+        "Express.js",
+        "Khalti Payments",
+        "Git & Github",
+        "React",
+        "JavaScript",
+        "MongoDB",
+        "TailwindCSS",
+        "Node.js",
+        "Multer",
+        "Cloudinary"
+      ],
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1747993199/ChatGPT_Image_May_23_2025_03_24_26_PM_etl9jw.png"
+    },
+    {
+      "title": " AI Story Generator",
+      "description": "AI-powered storybook generator that creates personalized illustrated and narrated stories using Next.js, PostgreSQL Inngest, Agent Kit, Eleven Labs, and Redis.",
+      "liveUrl": "https://aistory.sudipsharma.com.np",
+      "githubUrl": "https://github.com/sudipsharma826/aiStory",
+      "featured": true,
+      "features": [
+        "Generate Story Using AI",
+        "AI Generated Voice with Suggestion",
+        "Review Story",
+        "AI Image Generation"
+      ],
+      "skills": [
+        "Git & Github",
+        "Supabase",
+        "Resend Email",
+        "AI / AI Services",
+        "ElevenLabs",
+        "Redis",
+        "React Hook Form",
+        "React",
+        "PrismaOrm",
+        "Postgresql",
+        "TailwindCSS",
+        "Node.js",
+        "Next.js",
+        "TypeScript",
+        "NextAuth.js"
+      ],
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760331865/portfolio/utxuag9cdn3ygivgt2ov.png"
+    },
+    {
+      "title": "CodeLink",
+      "description": "CodeLink is a modern, full-stack collaborative platform that combines real-time code editing, audio meetings, AI-powered chat assistance, and seamless team collaboration — all in one place.\n",
+      "liveUrl": "https://codelink.sudipsharma.com.np",
+      "githubUrl": "https://github.com/sudipsharma826/codeLink",
+      "featured": true,
+      "features": [
+        "Real Time Code Editor With Multiple Language Support With Audio",
+        "Fallbacks AI Model Handling",
+        "Khalti Payment Intergration",
+        "Intergrate Vapi AI Voice Agent",
+        "AI Chat Bot",
+        "Role Based Access"
+      ],
+      "skills": [
+        "Zod",
+        "Khalti Payments",
+        "Socket.Io",
+        "PrismaOrm",
+        "Vapi AI Voice Agent",
+        "Express.js",
+        "NextAuth.js",
+        "Git & Github",
+        "AI / AI Services",
+        "React",
+        "Postgresql",
+        "TypeScript",
+        "TailwindCSS",
+        "Node.js",
+        "Next.js",
+        "Zustand"
+      ],
+      "imageUrl": ""
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Digital Pathshala certifies TypeScript",
+      "instituteName": "Digital Pathshala",
+      "issueDate": "2024-05-13T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083967/195e0d05-e6ea-47e7-b8c3-03e42453eb09.png",
+      "credentialUrl": "https://dp-cs.digitalpathshalanepal.com/uploads/pdfs/certificate-1748064010242.pdf",
+      "description": "3 Hours Intensive TypeScript Workshop",
+      "featured": false,
+      "skills": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ]
+    },
+    {
+      "title": "Meta certified Programming in Java Script",
+      "instituteName": "Coursera",
+      "issueDate": "2023-12-04T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760368188/portfolio/mgcvpt8swjv9zsbd9tpz.png",
+      "credentialUrl": "https://www.coursera.org/account/accomplishments/certificate/5MP9WR2DEE8X",
+      "description": "",
+      "featured": false,
+      "skills": [
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+      "instituteName": "Amazon Web Services (AWS)",
+      "issueDate": "2024-01-01T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760368505/portfolio/fugdy8oots0xrg1odwks.png",
+      "credentialUrl": "https://www.credly.com/badges/a57e28d6-af73-4d3a-8db2-8d70dd608a27/linked_in_profile",
+      "description": "",
+      "featured": false,
+      "skills": [
+        "AWS Cloud"
+      ]
+    },
+    {
+      "title": "Tech Research and Innovation certified NextJs Workshop",
+      "instituteName": "Tech Research and Innovation",
+      "issueDate": "2024-10-01T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/diuy2xilf/image/upload/v1760369065/portfolio/zzsuoxgdgznvyfcvsqfu.png",
+      "credentialUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083441/Sudip_Sharma_1_g4pydk.png",
+      "description": "",
+      "featured": false,
+      "skills": [
+        "Next.js",
+        "NextAuth.js"
+      ]
+    },
+    {
+      "title": "Full Stack Development with MERN Stack",
+      "instituteName": "Digital Pathshala",
+      "issueDate": "2025-05-24T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748084539/955d98f9-25b0-4465-a538-261722f814ac.png",
+      "credentialUrl": "https://dp-cs.digitalpathshalanepal.com/uploads/pdfs/certificate-1748064033510.pdf",
+      "description": "Successfully completed the MERN Stack Development Course from Digital Pathshala (Student ID: 6d6dc9) under the mentorship of Manish Basnet.\nDuring the 3-month program, I learned to build full-fledged web applications using MongoDB, Express.js, React, and Node.js. The course enhanced my creativity, problem-solving, and debugging skills, strengthening my ability to design and develop scalable web solutions.",
+      "featured": true,
+      "skills": [
+        "Node.js",
+        "MongoDB",
+        "TailwindCSS",
+        "React",
+        "Git & Github",
+        "SQL",
+        "Express.js",
+        "MySql",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Digital Pathshala ceritified Tailwind CSS",
+      "instituteName": "Digital Pathshala",
+      "issueDate": "2024-09-01T00:00:00.000Z",
+      "imageUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083081/bc258264-09e2-4c41-812e-2b35d681ab3a.png",
+      "credentialUrl": "https://res.cloudinary.com/dcd994j0i/image/upload/v1748083081/bc258264-09e2-4c41-812e-2b35d681ab3a.png",
+      "description": "",
+      "featured": false,
+      "skills": [
+        "TailwindCSS",
+        "React"
+      ]
+    }
+  ]
+}
