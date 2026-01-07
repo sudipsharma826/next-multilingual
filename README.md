@@ -18,7 +18,7 @@ Update your `next.config.ts` to enable internationalized routing:
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
-    locales: ['en', 'fr', 'es'], // Add your supported locales here
+    locales: ['en', 'np'], // Add your supported locales here
     defaultLocale: 'en',
   },
   // ...other config
